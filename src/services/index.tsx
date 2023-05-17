@@ -34,7 +34,7 @@ const ServicesSection: NextPage = () => {
     }
 
     return (
-        <div className='mt-10'>
+        <div className='mt-14'>
             <div className="mx-px md:ml-80 md:mr-80 bg-white dark:bg-slate-800 rounded-xl card">
                 <div className="w-full flex justify-between pt-2 pl-6 pr-6 pb-2">
                     <div className='flex items-center sm:text-xl text-xs font-semibold leading-7'>

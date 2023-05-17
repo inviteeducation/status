@@ -35,7 +35,7 @@ const IncidentsSection: NextPage = () => {
                                                     </div>
                                                     <div className='items-center ml-3 mt-6'>
                                                         <p className='text-base font-semibold leading-6 text-gray-900'>{incident.title}</p>
-                                                        <p className='text-sm text-gray-500'>This incident has been resolved.</p>
+                                                        <p className='text-sm text-gray-500'>{incident.desciption}</p>
                                                         <p className='text-sm text-gray-500'>{formatDate(incident.created_at)} - {formatDate(incident.closed_at)}</p>
                                                     </div>
                                                 </div>
